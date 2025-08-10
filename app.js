@@ -43,9 +43,6 @@ function limpiarCaja(){
 function numeroAleatorio(){
     // Almacenamos el número random en una variable
     let numeroGenerado = Math.floor(Math.random() * 10) + 1;
-
-    console.log(numeroGenerado);
-    console.log(numeros_sorteados);
     if (numeros_sorteados.length == 5) {
         asignarTexto('p', 'Ya jugaste 5 veces. Refresca la página para reiniciar el juego');
     } else{
